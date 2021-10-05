@@ -100,7 +100,7 @@ function keyPressed(){
 }
 async function getBackgroundImage(){
 
-    var response=await fetch("http://worldtimeapi.org/api/timezone/America/MexicoCity");
+    var response=await fetch("http://worldtimeapi.org/api/timezone/America/Mexico_City");
     var responseJSON=await response.json();//CAMBIAMOS EL API A FORMATO JSON...EN RENGLONES
     var datetime=responseJSON.datetime;
     var hour=datetime.slice(11,13);
