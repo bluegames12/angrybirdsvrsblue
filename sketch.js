@@ -14,7 +14,7 @@ var platform;
 var slingshot;
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
-    getBackgroundImage();
+    //getBackgroundImage();
 }
 
 function setup(){
